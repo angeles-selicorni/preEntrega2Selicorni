@@ -1,0 +1,12 @@
+@mixin flex{
+    display:flex;
+    justify-content: center;
+    width:fit-content;
+}
+
+@mixin grid{
+    display: grid;
+    grid-template-columns: (1fr 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 50%;
+}
